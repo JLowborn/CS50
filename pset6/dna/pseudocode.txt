@@ -1,0 +1,14 @@
+Check for inline args
+Open CSV file and read contents into memory
+Open DNA file and read contents into memory
+For each position in sequence
+    Check for STR
+    If STR found
+        Count number of repetitions in sequence
+Compute longest consecutive repeats
+For each line in CSV file (except the first one)
+    Compare all 3 STR counts
+    If count matches
+        Print person's name
+    Else
+        Print no match

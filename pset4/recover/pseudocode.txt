@@ -1,0 +1,18 @@
+Check number of arguments X
+Check if card exists X
+Open memory card X
+Repeat until end of the card:
+    Read 512 bytes into a buffer
+    If start of new JPEG
+        If first JPEG
+            ...
+        Else
+            ...
+    Else
+        If already found a JPEG
+            ...
+Close any remaining files
+
+Open memory card:                   FILE *file = fopen(argv[1], "r");
+Check: check50 cs50/problems/2020/x/recover
+Style: style50 recover.c
